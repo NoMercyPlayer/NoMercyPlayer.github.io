@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.light-theme {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.dark-theme {
+    background: #333;
+    color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+#theme-toggle {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#theme-toggle:hover {
+    background: #fff;
+    color: #444;
+}
+
+nav ul {
+    list-style: none;
+    background: #555;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.dark-theme section {
+    background: #525252;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+}
+
+h2 {
+    color: inherit;
+}
+
+p {
+    line-height: 1.6;
+}
+
+section:hover {
+    cursor: pointer;
+    background-color: #f9f9f9; /* Lysere baggrund for hover i lyst tema */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tilføjer en blød skygge */
+    transform: translateY(-2px); /* Løfter sektionen en smule */
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Gør overgangen glat */
+}
+
+.dark-theme section:hover {
+    background-color: #3c3c3c; /* Mørkere baggrund for hover i mørkt tema */
+}
+
+/* Inkluderer Google Font */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase; /* Gør al tekst uppercase */
+    /* Resten af din body-styling */
+}
+
+/* Hover-effekt for sektioner */
+section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Glat overgang for hover-effekten */
+    /* Resten af din section-styling */
+}
+
+section:hover {
+    transform: translateY(-10px); /* Løfter sektionen lidt op */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Tilføjer en større skygge for at fremhæve sektionen */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Sørger for at padding ikke tilføjer til bredden */
+}
+
+button[type="submit"] {
+    background: #444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #555;
+}
+
+.kontakt-info {
+    margin-top: 20px;
+}
+
+.kontakt-info p {
+    margin: 5px 0;
+}
