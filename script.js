@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     a.href = 'https://drive.usercontent.google.com/download?id=1N3kK-dWDAE0sG67KPMrbCYany5Wg9REh&export=download&authuser=0';
                     break;
                 case 'downloadBtn3':
-                    a.href = 'https://example.com/download3';
+                    a.href = '';
                     break;
             }
             a.setAttribute('target', '_blank');
